@@ -6199,3 +6199,135 @@ h2 {
         .home_page .container_all_videos .all_videos .video .img_desc_hover h3 {
           font-size: 25px;
           line-height: 30px; }
+
+/**************************
+         PAGE VIEW
+ **************************/
+.page_view {
+  margin-top: 50px; }
+  .page_view .row {
+    margin: 0; }
+  .page_view .fil_arianne {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #9a9b9b;
+    background-color: #f6f5f5; }
+  .page_view .player_video_container, .page_view .desc_player_video_container {
+    height: 75vh;
+    padding-left: 0;
+    margin-bottom: 30px; }
+  .page_view .player_video_container .player_video {
+    position: relative; }
+    .page_view .player_video_container .player_video figure {
+      width: 100%;
+      height: 75vh;
+      overflow: hidden; }
+      .page_view .player_video_container .player_video figure img {
+        width: 100%; }
+    .page_view .player_video_container .player_video .propositions_container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+      .page_view .player_video_container .player_video .propositions_container .propositions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%; }
+        .page_view .player_video_container .player_video .propositions_container .propositions .prop1 {
+          margin-right: 100px; }
+        .page_view .player_video_container .player_video .propositions_container .propositions .prop1, .page_view .player_video_container .player_video .propositions_container .propositions .prop2 {
+          background-color: rgba(255, 0, 0, 0.7);
+          padding: 20px;
+          color: #fff;
+          width: 25%;
+          display: flex;
+          flex-direction: column;
+          line-height: 22px; }
+          .page_view .player_video_container .player_video .propositions_container .propositions .prop1 .bloc_title, .page_view .player_video_container .player_video .propositions_container .propositions .prop2 .bloc_title {
+            display: flex;
+            margin-bottom: 30px; }
+            .page_view .player_video_container .player_video .propositions_container .propositions .prop1 .bloc_title h3, .page_view .player_video_container .player_video .propositions_container .propositions .prop2 .bloc_title h3 {
+              width: 70%;
+              line-height: 22px;
+              font-size: 20px; }
+            .page_view .player_video_container .player_video .propositions_container .propositions .prop1 .bloc_title a, .page_view .player_video_container .player_video .propositions_container .propositions .prop2 .bloc_title a {
+              width: 30%;
+              text-align: center;
+              border: 1px solid #fff;
+              border-radius: 50px;
+              display: inline-table;
+              padding: 0 10px; }
+    .page_view .player_video_container .player_video .video_bar {
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 13px 20px; }
+      .page_view .player_video_container .player_video .video_bar .time {
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: grey;
+        top: 0;
+        left: 0; }
+        .page_view .player_video_container .player_video .video_bar .time .time_blue {
+          background-color: #16eae7;
+          width: 30%;
+          z-index: 999;
+          height: 3px; }
+        .page_view .player_video_container .player_video .video_bar .time .bullet {
+          width: 15px;
+          height: 15px;
+          border: 3px solid grey;
+          border-radius: 50px;
+          background-color: #16eae7;
+          position: absolute;
+          top: -6px;
+          left: 30%; }
+      .page_view .player_video_container .player_video .video_bar .icons_left, .page_view .player_video_container .player_video .video_bar .icons_right {
+        display: flex;
+        align-items: center; }
+        .page_view .player_video_container .player_video .video_bar .icons_left img, .page_view .player_video_container .player_video .video_bar .icons_right img {
+          height: 25px;
+          margin-right: 10px; }
+          .page_view .player_video_container .player_video .video_bar .icons_left img:last-child, .page_view .player_video_container .player_video .video_bar .icons_right img:last-child {
+            margin-right: 0; }
+      .page_view .player_video_container .player_video .video_bar .volume {
+        width: 200px;
+        height: 5px;
+        background-color: grey;
+        border-radius: 5px; }
+        .page_view .player_video_container .player_video .video_bar .volume .volume_blue {
+          background-color: #16eae7;
+          width: 60%;
+          height: 5px;
+          border-radius: 5px; }
+  .page_view .desc_player_video_container {
+    margin-top: 10px; }
+    .page_view .desc_player_video_container .bloc_title {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px; }
+      .page_view .desc_player_video_container .bloc_title .dispo {
+        padding: 10px 15px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right, #5699cb, #16eae7); }
+      .page_view .desc_player_video_container .bloc_title .all_episodes {
+        color: #717373;
+        border: 1px solid #717373;
+        border-radius: 50px;
+        padding: 10px 15px; }
+    .page_view .desc_player_video_container h2 {
+      margin-bottom: 5px; }
+    .page_view .desc_player_video_container h3 {
+      margin-bottom: 10px; }
+    .page_view .desc_player_video_container .title_desc {
+      color: grey;
+      margin-bottom: 20px;
+      font-size: 14px; }
