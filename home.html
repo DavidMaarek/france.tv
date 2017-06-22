@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard personnalisé</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="nav-main">
+            <nav>
+                <ul class="navigation_bar">
+                    <li class="nav-logo">
+                        <a href="#" class="logo">
+                            <img src="images/francetv.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item item1">
+                        <a href="#">accueil</a>
+                    </li>
+                    <li class="nav-item item2">
+                        <a href="#">chaînes</a>
+                    </li>
+                    <li class="nav-item item3">
+                        <a href="#" class="test">catégories</a>
+                        <div class="sub_item3">
+                            <ul>
+                                <li><a href="#">shows TV</a></li>
+                                <li><a href="#">films</a></li>
+                                <li><a href="#">sports</a></li>
+                                <li><a href="#">actualités et société</a></li>
+                                <li><a href="#">documentaires</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">enfants</a></li>
+                                <li><a href="#">jeux et divertissements</a></li>
+                                <li><a href="#">séries et fictions</a></li>
+                                <li><a href="#">spectacles et culture</a></li>
+                                <li><a href="#">vie quotidienne</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item item4">
+                        <a href="#">ma séléction</a>
+                    </li>
+                    <li class="nav-item live-button">
+                        <a href="#">en direct&nbsp;&nbsp;<span>•</span></a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="icons-nav">
+                <ul class="navigation_bar">
+                    <li class="nav-item notif">
+                        <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+                        <i class="notif_number">1</i>
+                        <p class="hover_notif">La saison 4 de Candice Renoir est biento disponible</p>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <div class="row slider">
+                <div class="col-md-4 slide1">
+                    <a href="#" class="slider_link_new">nouveautés</a>
+                </div>
+                <div class="col-md-4 slide2">
+                    <a href="#" class="slider_link_new">recommandés</a>
+                </div>
+                <div class="col-md-4 slide3">
+                    <a href="#" class="slider_link_new">ma selection</a>
+                </div>
+            </div>
+
+            <form class="filtre_form">
+                <label for="filtre">
+                    Filtre &nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    <div class="hover_filtre_label">
+                        <ul>
+                            <li><a href="#">les plus vues</a></li>
+                            <li><a href="#">les plus commentés</a></li>
+                            <li><a href="#">les plus partagées</a></li>
+                            <li><a href="#">les plus récentes</a></li>
+                            <li><a href="#">les coups de coeur</a></li>
+                        </ul>
+                    </div>
+                </label>
+                <input type="text" id="filtre" placeholder="Recherche">
+            </form>
+
+            <p class="angle_down">
+                <a href="#"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></a>
+            </p>
+
+            <div class="container">
+                <div class="bloc">
+                    <h2>Séries policières et thriller <span>46 vidéos</span></h2>
+                    <div class="all_videos">
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/series/serie_rex.jpg" alt="preview">
+                                <div class="days">3j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/series/serie_tandem.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Tandem</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Tandem</span>
+                                    1198 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/series/serie_meurtre.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Meurtres au paradis</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Meurtres au paradis</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bloc bloc2">
+                <div class="container">
+                    <h2>films trhiller et policier <span>53 vidéos</span></h2>
+                    <div class="all_videos">
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/films/film_game.jpg" alt="preview">
+                                <div class="days">3j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Immigration game</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Immigration game</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/films/film_catch.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Catch me</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Catch me</span>
+                                    1198 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/films/film_spotlight.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Spotlight</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Spotlight</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bloc bloc3">
+                <div class="container">
+                    <h2>dernière chance <span>16 vidéos</span></h2>
+                    <div class="all_videos">
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/derniere_chance/last_legend.jpg" alt="preview">
+                                <div class="days">3j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Legend</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Legend</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/derniere_chance/last_disparue.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Disparue</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Disparue</span>
+                                    1198 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/derniere_chance/last_personal.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Presonal shopper</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Presonal shopper</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bloc bloc4">
+                <div class="container">
+                    <h2>émission <span>24 vidéos</span></h2>
+                    <div class="all_videos">
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/emission/emission_tmvpp.jpg" alt="preview">
+                                <div class="days">3j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Tout le monde vuet prendre sa place</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Tout le monde vuet prendre sa place</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/emission/emission_zamours.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Les Z'amours</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Les Z'amours</span>
+                                    1198 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/emission/emission_qpuc.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Question pour un champion</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Question pour un champion</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/serie-3695-diaporama.jpg" alt="preview">
+                                <div class="days">6j</div>
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <div class="bloc_title">
+                                        <h3>Rex</h3>
+                                        <a href="#" class="view">voir</a>
+                                    </div>
+                                    <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                                </div>
+                            </div>
+                            <div class="desc">
+                                <p>
+                                    <span class="title_serie">Rex</span>
+                                    1208 vues
+                                </p>
+                                <div class="icons">
+                                    <p>
+                                        <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></a>
+                                        <span>675</span>
+                                    </p>
+                                    <p>
+                                        <a href="#"><i class="fa fa-share-square-o" aria-hidden="true"></i></a>
+                                        <span>42</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    </body>
+</html>

@@ -1,20 +1,99 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>france.tv</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h1>col-md-6</h1>
-                </div>
-                <div class="col-md-6">
-                    <h1>col-md-6</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard personnalisé</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="nav-main">
+        <nav>
+            <ul class="navigation_bar">
+                <li class="nav-logo">
+                    <a href="#" class="logo">
+                        <img src="images/francetv.svg" alt="">
+                    </a>
+                </li>
+                <li class="nav-item item1">
+                    <a href="#">accueil</a>
+                </li>
+                <li class="nav-item item2">
+                    <a href="#">chaînes</a>
+                </li>
+                <li class="nav-item item3">
+                    <a href="#" class="test">catégories</a>
+                    <div class="sub_item3">
+                        <ul>
+                            <li><a href="#">shows TV</a></li>
+                            <li><a href="#">films</a></li>
+                            <li><a href="#">sports</a></li>
+                            <li><a href="#">actualités et société</a></li>
+                            <li><a href="#">documentaires</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">enfants</a></li>
+                            <li><a href="#">jeux et divertissements</a></li>
+                            <li><a href="#">séries et fictions</a></li>
+                            <li><a href="#">spectacles et culture</a></li>
+                            <li><a href="#">vie quotidienne</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item item4">
+                    <a href="#">ma séléction</a>
+                </li>
+                <li class="nav-item live-button">
+                    <a href="#">en direct&nbsp;&nbsp;<span>•</span></a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="icons-nav">
+            <ul class="navigation_bar">
+                <li class="nav-item notif">
+                    <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+                    <i class="notif_number">1</i>
+                    <p class="hover_notif">La saison 4 de Candice Renoir est biento disponible</p>
+                </li>
+                <li class="nav-item">
+                    <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="home_page">
+        <header class="container">
+            <i class="fa fa-heart-o" aria-hidden="true"></i>
+            <h2>Julien, dis nous ce que tu aimes</h2>
+            <p>Cela va nous permettre de te proposer des programmes adaptés à tes préférences. Sélectionne tes 3 programmes préférés</p>
+        </header>
+
+
+        <div class="bloc">
+            <div class="container">
+                <h2>à la une</h2>
+                <div class="container_all_videos">
+                    <div class="all_videos">
+                        <div class="video">
+                            <div class="img_container">
+                                <img src="images/films/film_game.jpg" alt="preview">
+                                <div class="img_desc_hover">
+                                    <a href="#" class="hover"></a>
+                                    <h3>On n'est pas couché</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+
         </div>
-    </body>
+    </div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+</body>
 </html>
