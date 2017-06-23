@@ -6217,6 +6217,15 @@ h2 {
           background: linear-gradient(to left, rgba(22, 120, 186, 0.8), rgba(42, 64, 147, 0.8)); }
           .home_page .container_all_videos .all_videos .video .choose img.check-circle {
             display: block; }
+  .home_page .validate_selection {
+    display: block;
+    padding: 15px;
+    background-image: linear-gradient(to right, #5699cb, #16eae7);
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    border-radius: 100px;
+    margin: 0 auto 30px auto; }
 
 /**************************
          PAGE VIEW
