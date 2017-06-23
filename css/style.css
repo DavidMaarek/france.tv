@@ -6188,18 +6188,35 @@ h2 {
     .home_page .container_all_videos .all_videos {
       overflow-x: initial;
       overflow-y: initial; }
-      .home_page .container_all_videos .all_videos .video .img_desc_hover {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 1;
-        padding: 30px;
-        white-space: normal;
-        text-align: center;
-        background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)); }
-        .home_page .container_all_videos .all_videos .video .img_desc_hover h3 {
-          font-size: 25px;
-          line-height: 30px; }
+      .home_page .container_all_videos .all_videos .video {
+        position: relative; }
+        .home_page .container_all_videos .all_videos .video .img_desc_hover {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          opacity: 1;
+          padding: 30px;
+          white-space: normal;
+          text-align: center;
+          background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)); }
+          .home_page .container_all_videos .all_videos .video .img_desc_hover img.check-circle {
+            display: none;
+            position: absolute;
+            background: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 500px;
+            top: 15px;
+            right: 15px; }
+          .home_page .container_all_videos .all_videos .video .img_desc_hover:hover {
+            background: linear-gradient(to left, rgba(22, 120, 186, 0.8), rgba(42, 64, 147, 0.8)); }
+          .home_page .container_all_videos .all_videos .video .img_desc_hover h3 {
+            font-size: 25px;
+            line-height: 30px; }
+        .home_page .container_all_videos .all_videos .video .choose {
+          background: linear-gradient(to left, rgba(22, 120, 186, 0.8), rgba(42, 64, 147, 0.8)); }
+          .home_page .container_all_videos .all_videos .video .choose img.check-circle {
+            display: block; }
 
 /**************************
          PAGE VIEW
