@@ -616,7 +616,7 @@ h2{
           }
 
           .prop1, .prop2{
-            background-color: rgba(255, 0, 0, .7);
+            background: linear-gradient(to left, rgba(137, 24, 18, .9), rgba(255, 7, 38, .7));
             padding: 20px;
             color: #fff;
             width: 25%;
@@ -633,6 +633,7 @@ h2{
                 line-height: 22px;
                 font-size: 20px;
               }
+
               a{
                 width: 30%;
                 text-align: center;

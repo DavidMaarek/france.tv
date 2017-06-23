@@ -6281,7 +6281,7 @@ h2 {
         .page_view .player_video_container .player_video .propositions_container .propositions .prop1 {
           margin-right: 100px; }
         .page_view .player_video_container .player_video .propositions_container .propositions .prop1, .page_view .player_video_container .player_video .propositions_container .propositions .prop2 {
-          background-color: rgba(255, 0, 0, 0.7);
+          background: linear-gradient(to left, rgba(137, 24, 18, 0.9), rgba(255, 7, 38, 0.7));
           padding: 20px;
           color: #fff;
           width: 25%;
