@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard personnalisé</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="nav-main">
+    <nav>
+        <ul class="navigation_bar">
+            <li class="nav-logo">
+                <a href="index.html" class="logo">
+                    <img src="images/francetv.svg" alt="">
+                </a>
+            </li>
+            <li class="nav-item item1">
+                <a href="home.html">accueil</a>
+            </li>
+            <li class="nav-item item2">
+                <a href="#">chaînes</a>
+            </li>
+            <li class="nav-item item3">
+                <a href="#" class="test">catégories</a>
+                <div class="sub_item3">
+                    <ul>
+                        <li><a href="#">shows TV</a></li>
+                        <li><a href="#">films</a></li>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">actualités et société</a></li>
+                        <li><a href="#">documentaires</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">enfants</a></li>
+                        <li><a href="#">jeux et divertissements</a></li>
+                        <li><a href="#">séries et fictions</a></li>
+                        <li><a href="#">spectacles et culture</a></li>
+                        <li><a href="#">vie quotidienne</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item item4">
+                <a href="#">ma séléction</a>
+            </li>
+            <li class="nav-item live-button">
+                <a href="live.html">en direct&nbsp;&nbsp;<span>•</span></a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="icons-nav">
+        <ul class="navigation_bar">
+            <li class="nav-item notif">
+                <a href="#"><i class="fa fa-bell-o" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-item">
+                <a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="page_live">
+    <div class="row">
+        <div class="col-md-12 fil_arianne">
+            <p>en direct&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;France 2&nbsp;&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;&nbsp;Tout le monde veut prendre sa place</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 player_video_container">
+            <div class="player_video">
+                <figure>
+                    <img src="images/header/head_reco.jpg" alt="">
+                </figure>
+
+                <div class="propositions_container">
+                    <div class="propositions">
+                        <div class="prop1">
+                            <div class="bloc_title">
+                                <h3>Meurtre au paradis</h3>
+                                <a href="#">voir</a>
+                            </div>
+
+                            <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                        </div>
+
+                        <div class="prop2">
+                            <div class="bloc_title">
+                                <h3>Meurtre au paradis</h3>
+                                <a href="#">voir</a>
+                            </div>
+
+                            <p><b>Saison 9 - Episode 5</b> <br> <b>Ondes troubles</b> <br> Diffusé le jeu. 15.06.17 <br> 45min</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video_bar">
+                    <div class="time">
+                        <div class="time_blue"></div>
+                        <div class="bullet"></div>
+                    </div>
+                    <div class="icons_left">
+                        <img src="images/player_icons/007-play-button.svg" alt="">
+                        <img src="images/player_icons/006-pause.svg" alt="">
+                        <img src="images/player_icons/002-fast-forward.svg" alt="">
+                        <img src="images/player_icons/005-speaker.svg" alt="">
+                        <div class="volume">
+                            <div class="volume_blue"></div>
+                        </div>
+                    </div>
+                    <div class="icons_right">
+                        <img src="images/player_icons/002-expand.svg" alt="">
+                        <img src="images/player_icons/001-upload.svg" alt="">
+                        <img src="images/player_icons/001-technology.svg" alt="">
+                        <img src="images/player_icons/004-share.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 desc_player_video_container">
+            <div class="messages">
+                <div class="message message_barack">
+                    <div class="bloc_title">
+                        <figure>
+                            <img src="images/chat/Barack_Obama.png" alt="">
+                            <p>Barack Obama</p>
+                        </figure>
+                        <p class="date">le 26 juin 2017 à 12h45</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid aspernatur atque corporis est explicabo, illo molestiae possimus quis reiciendis saepe vitae. Cum inventore, libero neque nisi nostrum placeat tempore.</p>
+                    <div class="social social_barack">
+                        <a href="#" class="like">j'aime | <span>34</span></a>
+                        <a href="#" class="show_reponse">répondre</a>
+                        <a href="#">partager | 3</a>
+                    </div>
+
+                    <div class="form_reponse">
+                        <input type="text" id="input_reponse" placeholder="Votre message">
+                        <i class="fa fa-paper-plane fa-paper-plane-reponse" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <form>
+                <input type="text" id="input_message" placeholder="Votre message">
+                <i class="fa fa-paper-plane fa-paper-plane-message" aria-hidden="true"></i>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script>
+        $('.fa-paper-plane-message').click(function (event) {
+            event.preventDefault();
+            var input_message = $('#input_message').val();
+            $('.messages').append("<div class='message'><div class='bloc_title'><figure><img src='images/chat/Donald_Trump.png'><p>Donal Trump</p></figure><p class='date'>le 26 juin 2017 à 13h12</p></div> <p>" + input_message + "</p> <div class='social'><a href='#' class='like'>j'aime | 34</a><a href='#'>répondre</a><a href='#'>partager | 3</a></div> </div>");
+        });
+        $('.like').click(function (event) {
+            event.preventDefault();
+            var nombre = $(this).find("span").html();
+            $(this).toggleClass('like_this');
+            if ($(this).hasClass('like_this')){
+                var nombre_final = parseInt(nombre) + 1;
+            } else {
+                var nombre_final = parseInt(nombre) - 1;
+            }
+            $(this).find("span").text(nombre_final);
+        });
+
+        $('.show_reponse').click(function (event) {
+            event.preventDefault();
+            $('.form_reponse').fadeIn();
+            $('.social_barack').css("margin-bottom", "40px")
+        });
+
+        $('.fa-paper-plane-reponse').click(function (event) {
+            event.preventDefault();
+            var reponse = $('#input_reponse').val();
+            $('.message_barack').append('<div class="reponse"><div class="bloc_title_response"><p class="time">à <br> l\'instant</p><figure><img src="images/chat/Donald_Trump.png" width="50px" alt=""></figure><p>Donald Trump</p></div><p>'+ reponse +'</p></div>');
+            $('.social_barack').css("margin-bottom", "0")
+            $('.form_reponse').fadeOut();
+        })
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
