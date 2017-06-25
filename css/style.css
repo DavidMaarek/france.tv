@@ -6440,7 +6440,8 @@ h2 {
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    width: 100%; }
   .page_live .desc_player_video_container .message {
     background-color: #fff;
     padding-top: 15px;
@@ -6528,4 +6529,13 @@ h2 {
       top: 8px;
       right: 5px; }
       .page_live .desc_player_video_container form i:hover {
-        cursor: pointer; }
+        cursor: pointer;
+        justify-content: space-between; }
+
+.page_live .flex_me {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  .page_live .flex_me twitterwidget {
+    margin-right: 10px; }
